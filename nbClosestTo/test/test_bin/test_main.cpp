@@ -6,6 +6,8 @@
 #include <iostream>
 #include <typeinfo>
 // #include <signal.h>
+#include <array>
+#include <list>
 
 #include "../test_source/test_nbClosestTo.cpp"
 
@@ -15,9 +17,6 @@ void    redirect_all_stdout(void)
     cr_redirect_stderr();
 }
 
-#include <iostream>
-#include <array>
-#include <list>
 
 Test(nbClosestTo, Test_simple_case)//, .init = redirect_all_stdout)
 {
